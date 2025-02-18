@@ -24,6 +24,7 @@ const CONFIG = {
   blog: {
     title: "Kosrat's Blog",
     description: "Welcome to Kosrat's blog!",
+    scheme: "system",
   },
 
   // CONFIG configration (required)
@@ -44,7 +45,7 @@ const CONFIG = {
   googleAnalytics: {
     enable: false,
     config: {
-      measurementId: process.env.NEXT_PUBLIC_GOOGLE_MEASUREMENT_ID || "", 
+      measurementId: process.env.NEXT_PUBLIC_GOOGLE_MEASUREMENT_ID || "",
     },
   },
   googleSearchConsole: {
